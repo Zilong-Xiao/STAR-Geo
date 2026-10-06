@@ -1,0 +1,16 @@
+{
+  "backbone": "convnext",
+  "model_name": "convnext_base.fb_in22k_ft_in1k_384",
+  "image_size": 384,
+  "epochs": 40,
+  "batch_size": 128,
+  "backbone_lr": 0.001,
+  "module_lr": 0.001,
+  "prompt_lr": 0.00001,
+  "weight_decay": 0.01,
+  "warmup_epochs": 1,
+  "prompt_context_length": 16,
+  "descriptor_dim": 768,
+  "gamma_init": 0.1,
+  "temperature_init": 0.07
+}
